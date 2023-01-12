@@ -76,7 +76,7 @@ export default {
   justify-content: center;
   align-items: center;
   /* grid-column: repeat(2, 1fr) / repeat(2. 1fr); */
-  min-height: 270vh;
+  /* min-height: 270vh; */
 }
 
 .heading {

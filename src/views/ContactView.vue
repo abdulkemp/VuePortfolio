@@ -62,7 +62,7 @@ export default {
   color: white;
   text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
 }
-.di{
+/* .di{
     min-height: 100vh;
-}
+} */
 </style>

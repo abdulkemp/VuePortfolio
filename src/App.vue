@@ -40,7 +40,7 @@ nav a.router-link-exact-active {
 }
 
 .ho {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background-image: linear-gradient(black, black, rgb(36, 36, 36));
 }
 </style>

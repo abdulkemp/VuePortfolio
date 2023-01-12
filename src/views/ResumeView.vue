@@ -57,6 +57,7 @@ export default {
     /* min-height: 10vh; */
     min-height: 130vh;
     color: white;
+    /* height: 100vh; */
 }
 h1{
     color:red

@@ -31,8 +31,8 @@ export default {
   font-size: 10vw;
   color: white;
   text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
-  min-height: 20vh;
-  min-width: 20vh;
+  /* min-height: 20vh;
+  min-width: 20vh; */
 }
 
 </style>
