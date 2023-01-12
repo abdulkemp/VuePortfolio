@@ -16,15 +16,15 @@
   </div>
   <div class="col-md-6">
     <label for="validationDefault03" class="form-label">City</label>
-    <input type="name" class="form-control" id="validationDefault03" required>
+    <input type="name" class="form-control" id="validationDefault03" name="name" required>
 </div>
 <div class="col-md-6">
   <label for="validationDefault05" class="form-label">Zip</label>
-  <input type="name" class="form-control" id="validationDefault05" required>
+  <input type="name" class="form-control" id="validationDefault05" name="text" required>
 </div>
   <div class="col-md-56">
     <label for="validationDefault04" class="form-label">Province</label>
-    <select class="form-select" id="validationDefault04" required>
+    <select class="form-select" id="validationDefault04" name="name" required>
       <option selected disabled value="">Choose...</option>
       <option>Eastern Cape</option>
       <option>Free State</option>
@@ -39,7 +39,7 @@
   </div>
   <div class="col-md-56">
     <label for="validationDefault04" class="form-label">Provide Feedback Below</label>
-    <textarea class="form-select" id="validationDefault04" required>
+    <textarea class="form-select" id="validationDefault04" name="text" required>
     </textarea>
   </div>
   <div class="col-12">
