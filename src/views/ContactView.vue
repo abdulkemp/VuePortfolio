@@ -20,7 +20,7 @@
 </div>
 <div class="col-md-6">
   <label for="validationDefault05" class="form-label">Zip</label>
-  <input type="name" class="form-control" id="validationDefault05" name="text" required>
+  <input type="name" class="form-control" id="validationDefault05" name="number" required>
 </div>
   <div class="col-md-56">
     <label for="validationDefault04" class="form-label">Province</label>
