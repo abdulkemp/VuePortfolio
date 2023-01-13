@@ -14,9 +14,11 @@
       </div>
     </div>
   </div>
+  <Animation />
 </template>
 
 <script>
+
 export default {
   name: 'About',
 }

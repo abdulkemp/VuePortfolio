@@ -18,7 +18,7 @@
 <style scoped>
 .feet{
     display:block;
-    background-color:  rgb(36, 36, 36);
+    background-color: transparent;
     color:white;
     justify-content: center;
     align-content: center;

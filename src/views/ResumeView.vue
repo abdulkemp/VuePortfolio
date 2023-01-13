@@ -44,6 +44,7 @@
             </div>
         </div>
     </div>
+    
 </template>
 
 <script>
@@ -70,4 +71,5 @@ h2{
   color: white;
   text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
 }
+
 </style>

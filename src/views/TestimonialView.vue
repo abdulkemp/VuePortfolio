@@ -1,16 +1,15 @@
 <template>
-  <div class="head animate__animated animate__backInDown">Testimonial</div>
+<div class="head animate__animated animate__backInDown">Projects & Skills</div>
     <div class="container">
-    <div class="row justify-content-center mx-5">
-      <div class="card mx-5 my-4 animate__animated animate__flash" v-for="pro in proj" :key="pro" :pro="pro" style="width: 23vw;">
-        <div class="imagesByKemp my-3" :style="{ backgroundImage: 'url(' + pro.image + ')' }" alt="..."></div>
-        <div class="card-body">
-          <h5 class="card-title">{{ pro.name }}</h5>
+    <div class="row justify-content-center mx-2">
+      <div class="col-sm-5 mx-2 my-2 animate__animated animate__flash proj" v-for="pro in proj" :key="pro" :pro="pro">
+        <h5 class="card-title">{{ pro.name }}</h5>
+        <img :src="pro.image" class="imagesByKemp" alt="...">
+        <!-- <div class="card-body"> -->
           <p class="card-text">{{ pro.testimonial }}</p>
         </div>
       </div>
     </div>
-</div>
 </template>
   
 <script>
@@ -58,9 +57,7 @@ export default {
 }
 </script>
 <style>
-.card {
-  width: 100%;
-  /* flex-direction: unset !important; */
+/* .row{
   display: grid;
   justify-content: center;
   align-content: center;
@@ -72,11 +69,9 @@ export default {
 }
 
 .container {
-  display: grid;
+  position: relative;
   justify-content: center;
   align-items: center;
-  /* grid-column: repeat(2, 1fr) / repeat(2. 1fr); */
-  /* min-height: 270vh; */
 }
 
 .heading {
@@ -100,5 +95,33 @@ export default {
   font-size: 10vw;
   color: white;
   text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
+} */
+.container{
+  display: inline-block;
 }
+
+.proj{
+  max-width: 350px;
+  background-color: blue;
+  border-radius:10px;
+}
+.proj img{
+  max-width: 95%;
+  max-height: 90%;
+  margin: 1%;
+}
+
+.card-text{
+  position: relative;
+  color: white;
+}
+
+.col{
+  position: absolute;
+}
+
+/* .my-2 img {
+  width: 250px;
+  height: 250px;
+} */
 </style>
