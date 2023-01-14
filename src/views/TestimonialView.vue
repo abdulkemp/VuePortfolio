@@ -79,7 +79,7 @@
   }
   .card-title{
     color: white;
-    font-size: 1.8vw;
+    font-size: 3vw;
   }
   .col{
     position: absolute;
