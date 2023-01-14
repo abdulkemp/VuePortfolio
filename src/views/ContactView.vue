@@ -15,16 +15,16 @@ method="POST" class="row row-md-4 g-3">
   <input type="name" class="form-control" id="validationDefault02" placeholder="Last Name" name="name" required>
 </div>
 <div class="col-md-6">
+<label for="validationDefault05" class="form-label">Cellphone Number</label>
+<input type="name" class="form-control" id="validationDefault05" name="number" required>
+</div>
+<div class="col-md-6">
   <label for="validationDefault03" class="form-label">City</label>
   <input type="name" class="form-control" id="validationDefault03" name="name" required>
 </div>
-<div class="col-md-6">
-<label for="validationDefault05" class="form-label">Zip</label>
-<input type="name" class="form-control" id="validationDefault05" name="number" required>
-</div>
 <div class="col-md-56">
   <label for="validationDefault04" class="form-label">Province</label>
-  <select class="form-select" id="validationDefault04" name="name" required>
+  <select class="form-select" id="validationDefault04" name="name" optional>
     <option selected disabled value="">Choose...</option>
     <option>Eastern Cape</option>
     <option>Free State</option>
@@ -61,6 +61,9 @@ export default {
 font-size: 8vw;
 color: white;
 text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
+}
+label{
+  color: white;
 }
 /* .di{
   min-height: 100vh;
