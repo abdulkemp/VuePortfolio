@@ -1,25 +1,26 @@
 <template>
-    <div class="head animate__animated animate__backInDown">Projects & Skills</div>
-    <div class="container">
-    <div class="row justify-content-center mx-2">
-      <div class="col-sm-5 mx-2 my-2 proj " v-for="pro in work" :key="pro" :pro="pro">
-        <img :src="pro.image" class="imagesByKemp" alt="...">
-        <h5 class="card-title">{{ pro.name }}</h5>
-        <!-- <div class="card-body"> -->
+  <section>
+    <div class="head animate__animated animate__backInDown">Projects</div>
+    <div class="container1">
+      <div class="row justify-content-center mx-2">
+        <div class="col-sm-5 mx-2 my-2 proj animate__animated animate__backInUp" v-for="pro in work" :key="pro"
+          :pro="pro">
+          <img :src="pro.image" class="imagesByKemp" alt="...">
+          <h5 class="card-title">{{ pro.name }}</h5>
           <div class="but">
-         <a :href="pro.github" target="_blank"> <button class="butt">GitHub</button></a>
-         <a :href="pro.netlify" target="_blank"> <button class="butto">Go Live</button></a>
-        </div>
+            <a :href="pro.github" target="_blank"> <button class="butt">GitHub</button></a>
+            <a :href="pro.netlify" target="_blank"> <button class="butto">Go Live</button></a>
+          </div>
         </div>
       </div>
     </div>
-
-   
+  </section>
+  
 </template>
 
 <script>
 export default {
-    name: 'Project',
+  name: 'Project',
   data() {
     return {
       work: [
@@ -67,48 +68,59 @@ export default {
 </script>
 
 <style scoped>
-.container{
+.container1 {
   display: inline-block;
 }
 
-.proj{
-  height: 40vh;
-  max-width: 350px;
-  background: linear-gradient(
-              40deg,
-              rgb(0, 0, 0),
-               rgb(28, 28, 28),
-               grey,
-               white
-  );
-  background-size: 100% 100%;
-  border-radius:10px;
+.card-title {
+  padding: 18px;
+  color: white;
 }
-.proj img{
+
+.proj {
+  height: 50vh;
+  max-width: 350px;
+  background: linear-gradient(40deg,
+      rgb(0, 0, 0),
+      rgb(28, 28, 28),
+      grey,
+      white);
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.proj img {
   max-width: 95%;
   height: 150px;
   margin-top: 10%;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-.but{
+
+.but {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   gap: 10px;
 }
-.butt{
+
+.butt {
   border-radius: 7px;
   border: 0px solid transparent;
   color: white;
   background-color: rgb(0, 0, 0);
 }
-.butto{
+
+.butto {
   border-radius: 7px;
   border: 0px solid transparent;
   color: black;
   background-color: rgb(255, 89, 0);
 }
 
+.head {
+  font-size: 8vw;
+  color: white;
+  text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
+}
 </style>

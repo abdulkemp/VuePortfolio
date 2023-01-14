@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="home">
-      <img alt="Vue logo" class="pfp animate__animated animate__backInDown" src="../assets/pfp.jpg">
+      <img alt="Vue logo" class="pfp animate__animated animate__backInDown" src="https://i.postimg.cc/wBvZDWrt/pfp.jpg">
     </div>
     <div class="home">
       <div class="hehe animate__animated animate__backInUp">Abdul-Azeez Kemp</div>

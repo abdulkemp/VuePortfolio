@@ -44,12 +44,11 @@
             </div>
         </div>
     </div>
-    
 </template>
 
 <script>
 export default {
-
+name: 'Resume'
 }
 </script>
 
@@ -67,7 +66,7 @@ h2{
     color:skyblue
 }
 .head{
-  font-size: 10vw;
+  font-size: 8vw;
   color: white;
   text-shadow: 0 0 5px, 0 0 25px, 0 0 50px;
 }
